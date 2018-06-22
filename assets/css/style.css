@@ -1,0 +1,119 @@
+/* Body styles
+--------------------------------------------------- */
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+/* Navigation bar styles
+--------------------------------------------------- */
+.nav {
+	padding: 25px 0;
+}
+
+.nav-brand {
+	margin: 0 40px;
+}
+
+.nav-item {
+	padding-top: 25px;
+}
+
+a {
+	color: #000;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+a:hover {
+	color: #000;
+}
+
+/* Jumbotron styles
+--------------------------------------------------- */
+.bg-cover {
+	background: url("../images/good-food.png") no-repeat;
+  background-size: 43%;
+	background-position: 50% 50%;
+	position: relative;
+	margin-bottom: 0;
+  /* z-index: -2; */
+}
+
+.overlay {
+  background-color: #000;
+  opacity: 0.75;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.jumbotron-text-container {
+	text-align: center;
+	padding-top: 15%;
+	padding-bottom: 15%;
+	/* padding-right: 60px; */
+}
+
+.display-4 {
+	color: #fff;
+	font-weight: 700;
+	font-size: 46px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.jumbo-btn {
+	color: #000;
+	background-color: #01ffcb;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-radius: 5px;
+	padding: 17px 45px;
+	margin-top: 20px;
+}
+
+/* Menu Container styles
+--------------------------------------------------- */
+section {
+	background-color: #01ffcb;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.menu-title {
+	margin-bottom: 50px;
+}
+
+h2 {
+	color: #000;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.bg-container {
+	background-color: #fff;
+	border-radius: 5px;
+	width: 350px;
+	height: 350px;
+	padding-top: 25%;
+	box-shadow: 0px 0px 8px 0px #9d9d9dbf;
+	-webkit-box-shadow: 0px 0px 8px 0px #9d9d9dbf;
+	-moz-box-shadow: 0px 0px 8px 0px #9d9d9dbf;
+}
+
+h4 {
+	color: #000;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 30px;
+}
